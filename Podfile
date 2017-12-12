@@ -10,6 +10,7 @@ target 'DogsApp' do
   pod 'SwiftIconFont'
   pod 'R.swift'
   pod "Reusable"
+  pod "SnapKit"
 
   target 'DogsAppTests' do
     inherit! :search_paths

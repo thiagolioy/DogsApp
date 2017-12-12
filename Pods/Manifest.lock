@@ -20,6 +20,7 @@ PODS:
     - Reusable/View (= 4.0.0)
   - Reusable/Storyboard (4.0.0)
   - Reusable/View (4.0.0)
+  - SnapKit (4.0.0)
   - SwiftIconFont (2.7.2)
 
 DEPENDENCIES:
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - Quick
   - R.swift
   - Reusable
+  - SnapKit
   - SwiftIconFont
 
 SPEC CHECKSUMS:
@@ -40,8 +42,9 @@ SPEC CHECKSUMS:
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftIconFont: e13dc39c257121e1141375bb338c02e686ef410b
 
-PODFILE CHECKSUM: 6da0eb953180af045dec04ec633605c0b51ac081
+PODFILE CHECKSUM: 2f6cc07fff5eba84fc859b9d93de5b8f0353c74c
 
 COCOAPODS: 1.3.1

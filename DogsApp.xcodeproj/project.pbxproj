@@ -20,6 +20,11 @@
 		0AC30D591FE030800031DF09 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D581FE030800031DF09 /* Dog.swift */; };
 		0AC30D5B1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */; };
 		0AC30D5F1FE074C00031DF09 /* DogPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */; };
+		0AC30D611FE076820031DF09 /* BreedImagesViewCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D601FE076820031DF09 /* BreedImagesViewCodeViewController.swift */; };
+		0AC30D641FE076D90031DF09 /* BreedImagesControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D631FE076D90031DF09 /* BreedImagesControllerView.swift */; };
+		0AC30D661FE076E30031DF09 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D651FE076E30031DF09 /* CodeView.swift */; };
+		0AC30D681FE077FA0031DF09 /* FeatchableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D671FE077FA0031DF09 /* FeatchableImageView.swift */; };
+		0AC30D6A1FE07D0B0031DF09 /* ImageFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D691FE07D0B0031DF09 /* ImageFetchable.swift */; };
 		6267CC5E60F17CDD3525F5F4 /* Pods_DogsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */; };
 		98B7C8B4ED31B177BF59BE76 /* Pods_DogsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +57,11 @@
 		0AC30D581FE030800031DF09 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImagesStoryboardViewController.swift; sourceTree = "<group>"; };
 		0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPersistenceService.swift; sourceTree = "<group>"; };
+		0AC30D601FE076820031DF09 /* BreedImagesViewCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImagesViewCodeViewController.swift; sourceTree = "<group>"; };
+		0AC30D631FE076D90031DF09 /* BreedImagesControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImagesControllerView.swift; sourceTree = "<group>"; };
+		0AC30D651FE076E30031DF09 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		0AC30D671FE077FA0031DF09 /* FeatchableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatchableImageView.swift; sourceTree = "<group>"; };
+		0AC30D691FE07D0B0031DF09 /* ImageFetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetchable.swift; sourceTree = "<group>"; };
 		3829474F86CFE6B6D76F7DD9 /* Pods-DogsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp.release.xcconfig"; sourceTree = "<group>"; };
 		46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +113,7 @@
 		0AAD7D9A1FE02B160048E7A2 /* DogsApp */ = {
 			isa = PBXGroup;
 			children = (
+				0AC30D621FE076B90031DF09 /* Views */,
 				0AC30D5D1FE03C710031DF09 /* Services */,
 				0AC30D5C1FE03C5C0031DF09 /* Controllers */,
 				0AC30D551FE0304D0031DF09 /* Models */,
@@ -139,6 +150,7 @@
 				0AAD7D9D1FE02B160048E7A2 /* BreedsViewController.swift */,
 				0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */,
 				0AAD7D9F1FE02B160048E7A2 /* FavoriteDogsViewController.swift */,
+				0AC30D601FE076820031DF09 /* BreedImagesViewCodeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +163,17 @@
 				0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		0AC30D621FE076B90031DF09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AC30D631FE076D90031DF09 /* BreedImagesControllerView.swift */,
+				0AC30D651FE076E30031DF09 /* CodeView.swift */,
+				0AC30D671FE077FA0031DF09 /* FeatchableImageView.swift */,
+				0AC30D691FE07D0B0031DF09 /* ImageFetchable.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5BF4F85B3173829A8E227053 /* Pods */ = {
@@ -303,6 +326,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -310,6 +334,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC30D6A1FE07D0B0031DF09 /* ImageFetchable.swift in Sources */,
 				0AC30D571FE030580031DF09 /* Breed.swift in Sources */,
+				0AC30D641FE076D90031DF09 /* BreedImagesControllerView.swift in Sources */,
+				0AC30D611FE076820031DF09 /* BreedImagesViewCodeViewController.swift in Sources */,
+				0AC30D661FE076E30031DF09 /* CodeView.swift in Sources */,
 				0AC30D5B1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift in Sources */,
 				0AC30D591FE030800031DF09 /* Dog.swift in Sources */,
 				0AAD7DA01FE02B160048E7A2 /* FavoriteDogsViewController.swift in Sources */,
@@ -407,6 +436,7 @@
 				0AAD7D9C1FE02B160048E7A2 /* AppDelegate.swift in Sources */,
 				0AC30D5F1FE074C00031DF09 /* DogPersistenceService.swift in Sources */,
 				0AC30D521FE02FED0031DF09 /* DogsService.swift in Sources */,
+				0AC30D681FE077FA0031DF09 /* FeatchableImageView.swift in Sources */,
 				0AAD7D9E1FE02B160048E7A2 /* BreedsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

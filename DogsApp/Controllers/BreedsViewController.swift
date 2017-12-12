@@ -97,7 +97,8 @@ extension BreedsViewController: UITableViewDelegate {
     }
     
     func proceedToBreedImagesViewCode(breed: Breed) {
-        
+        let controller = BreedImagesViewCodeViewController(breed: breed)
+        navigationController?.pushViewController(controller, animated: true)
     }
     
     func proceedToBreedImagesStoryboard(breed: Breed) {

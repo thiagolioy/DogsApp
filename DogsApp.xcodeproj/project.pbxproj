@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0AAD7D9C1FE02B160048E7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7D9B1FE02B160048E7A2 /* AppDelegate.swift */; };
-		0AAD7D9E1FE02B160048E7A2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7D9D1FE02B160048E7A2 /* FirstViewController.swift */; };
-		0AAD7DA01FE02B160048E7A2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7D9F1FE02B160048E7A2 /* SecondViewController.swift */; };
+		0AAD7D9E1FE02B160048E7A2 /* BreedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7D9D1FE02B160048E7A2 /* BreedsViewController.swift */; };
+		0AAD7DA01FE02B160048E7A2 /* FavoriteDogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7D9F1FE02B160048E7A2 /* FavoriteDogsViewController.swift */; };
 		0AAD7DA31FE02B160048E7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA11FE02B160048E7A2 /* Main.storyboard */; };
 		0AAD7DA51FE02B160048E7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA41FE02B160048E7A2 /* Assets.xcassets */; };
 		0AAD7DA81FE02B160048E7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA61FE02B160048E7A2 /* LaunchScreen.storyboard */; };
 		0AAD7DB31FE02B160048E7A2 /* DogsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7DB21FE02B160048E7A2 /* DogsAppTests.swift */; };
+		0AC30D521FE02FED0031DF09 /* DogsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D511FE02FED0031DF09 /* DogsService.swift */; };
+		0AC30D541FE030160031DF09 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D531FE030160031DF09 /* Result.swift */; };
+		0AC30D571FE030580031DF09 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D561FE030580031DF09 /* Breed.swift */; };
+		0AC30D591FE030800031DF09 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D581FE030800031DF09 /* Dog.swift */; };
+		0AC30D5B1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */; };
+		0AC30D5F1FE074C00031DF09 /* DogPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */; };
+		6267CC5E60F17CDD3525F5F4 /* Pods_DogsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */; };
+		98B7C8B4ED31B177BF59BE76 /* Pods_DogsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +37,8 @@
 /* Begin PBXFileReference section */
 		0AAD7D981FE02B160048E7A2 /* DogsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAD7D9B1FE02B160048E7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AAD7D9D1FE02B160048E7A2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0AAD7D9F1FE02B160048E7A2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0AAD7D9D1FE02B160048E7A2 /* BreedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsViewController.swift; sourceTree = "<group>"; };
+		0AAD7D9F1FE02B160048E7A2 /* FavoriteDogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDogsViewController.swift; sourceTree = "<group>"; };
 		0AAD7DA21FE02B160048E7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AAD7DA41FE02B160048E7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AAD7DA71FE02B160048E7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +46,18 @@
 		0AAD7DAE1FE02B160048E7A2 /* DogsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAD7DB21FE02B160048E7A2 /* DogsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAppTests.swift; sourceTree = "<group>"; };
 		0AAD7DB41FE02B160048E7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC30D511FE02FED0031DF09 /* DogsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsService.swift; sourceTree = "<group>"; };
+		0AC30D531FE030160031DF09 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0AC30D561FE030580031DF09 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		0AC30D581FE030800031DF09 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImagesStoryboardViewController.swift; sourceTree = "<group>"; };
+		0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPersistenceService.swift; sourceTree = "<group>"; };
+		3829474F86CFE6B6D76F7DD9 /* Pods-DogsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp.release.xcconfig"; sourceTree = "<group>"; };
+		46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882A2996A6FA0D24E4C152AF /* Pods-DogsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB842438FADA5B13A2E7FACD /* Pods-DogsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC65121F08BB35684B8B19EF /* Pods-DogsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B7C8B4ED31B177BF59BE76 /* Pods_DogsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6267CC5E60F17CDD3525F5F4 /* Pods_DogsAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +86,8 @@
 				0AAD7D9A1FE02B160048E7A2 /* DogsApp */,
 				0AAD7DB11FE02B160048E7A2 /* DogsAppTests */,
 				0AAD7D991FE02B160048E7A2 /* Products */,
+				5BF4F85B3173829A8E227053 /* Pods */,
+				EE8ACA5A8A0433E6DB5CDFFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +103,10 @@
 		0AAD7D9A1FE02B160048E7A2 /* DogsApp */ = {
 			isa = PBXGroup;
 			children = (
+				0AC30D5D1FE03C710031DF09 /* Services */,
+				0AC30D5C1FE03C5C0031DF09 /* Controllers */,
+				0AC30D551FE0304D0031DF09 /* Models */,
 				0AAD7D9B1FE02B160048E7A2 /* AppDelegate.swift */,
-				0AAD7D9D1FE02B160048E7A2 /* FirstViewController.swift */,
-				0AAD7D9F1FE02B160048E7A2 /* SecondViewController.swift */,
 				0AAD7DA11FE02B160048E7A2 /* Main.storyboard */,
 				0AAD7DA41FE02B160048E7A2 /* Assets.xcassets */,
 				0AAD7DA61FE02B160048E7A2 /* LaunchScreen.storyboard */,
@@ -99,6 +124,55 @@
 			path = DogsAppTests;
 			sourceTree = "<group>";
 		};
+		0AC30D551FE0304D0031DF09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AC30D561FE030580031DF09 /* Breed.swift */,
+				0AC30D581FE030800031DF09 /* Dog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0AC30D5C1FE03C5C0031DF09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AAD7D9D1FE02B160048E7A2 /* BreedsViewController.swift */,
+				0AC30D5A1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift */,
+				0AAD7D9F1FE02B160048E7A2 /* FavoriteDogsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0AC30D5D1FE03C710031DF09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0AC30D511FE02FED0031DF09 /* DogsService.swift */,
+				0AC30D531FE030160031DF09 /* Result.swift */,
+				0AC30D5E1FE074C00031DF09 /* DogPersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5BF4F85B3173829A8E227053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC65121F08BB35684B8B19EF /* Pods-DogsApp.debug.xcconfig */,
+				3829474F86CFE6B6D76F7DD9 /* Pods-DogsApp.release.xcconfig */,
+				CB842438FADA5B13A2E7FACD /* Pods-DogsAppTests.debug.xcconfig */,
+				882A2996A6FA0D24E4C152AF /* Pods-DogsAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE8ACA5A8A0433E6DB5CDFFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */,
+				87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AAD7DB71FE02B160048E7A2 /* Build configuration list for PBXNativeTarget "DogsApp" */;
 			buildPhases = (
+				8A0F43655A0F6A6A01CD78CA /* [CP] Check Pods Manifest.lock */,
 				0AAD7D941FE02B160048E7A2 /* Sources */,
 				0AAD7D951FE02B160048E7A2 /* Frameworks */,
 				0AAD7D961FE02B160048E7A2 /* Resources */,
+				4C88A1E1D6D639C4669EFC37 /* [CP] Embed Pods Frameworks */,
+				E074A64F0BDF0D0F49248AE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AAD7DBA1FE02B160048E7A2 /* Build configuration list for PBXNativeTarget "DogsAppTests" */;
 			buildPhases = (
+				A647F046FCBC7700F68C9D38 /* [CP] Check Pods Manifest.lock */,
 				0AAD7DAA1FE02B160048E7A2 /* Sources */,
 				0AAD7DAB1FE02B160048E7A2 /* Frameworks */,
 				0AAD7DAC1FE02B160048E7A2 /* Resources */,
+				DD83F788B6C0D3D0E1F582FA /* [CP] Embed Pods Frameworks */,
+				1D3FC401F7BBF4F0E5092E31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,14 +277,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D3FC401F7BBF4F0E5092E31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C88A1E1D6D639C4669EFC37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0F43655A0F6A6A01CD78CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A647F046FCBC7700F68C9D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD83F788B6C0D3D0E1F582FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E074A64F0BDF0D0F49248AE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AAD7D941FE02B160048E7A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAD7DA01FE02B160048E7A2 /* SecondViewController.swift in Sources */,
+				0AC30D571FE030580031DF09 /* Breed.swift in Sources */,
+				0AC30D5B1FE03C570031DF09 /* BreedImagesStoryboardViewController.swift in Sources */,
+				0AC30D591FE030800031DF09 /* Dog.swift in Sources */,
+				0AAD7DA01FE02B160048E7A2 /* FavoriteDogsViewController.swift in Sources */,
+				0AC30D541FE030160031DF09 /* Result.swift in Sources */,
 				0AAD7D9C1FE02B160048E7A2 /* AppDelegate.swift in Sources */,
-				0AAD7D9E1FE02B160048E7A2 /* FirstViewController.swift in Sources */,
+				0AC30D5F1FE074C00031DF09 /* DogPersistenceService.swift in Sources */,
+				0AC30D521FE02FED0031DF09 /* DogsService.swift in Sources */,
+				0AAD7D9E1FE02B160048E7A2 /* BreedsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +558,7 @@
 		};
 		0AAD7DB81FE02B160048E7A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC65121F08BB35684B8B19EF /* Pods-DogsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +574,7 @@
 		};
 		0AAD7DB91FE02B160048E7A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3829474F86CFE6B6D76F7DD9 /* Pods-DogsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +590,7 @@
 		};
 		0AAD7DBB1FE02B160048E7A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB842438FADA5B13A2E7FACD /* Pods-DogsAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +608,7 @@
 		};
 		0AAD7DBC1FE02B160048E7A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882A2996A6FA0D24E4C152AF /* Pods-DogsAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

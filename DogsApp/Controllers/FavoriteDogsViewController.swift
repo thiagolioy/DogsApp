@@ -10,16 +10,23 @@ import UIKit
 
 final class FavoriteDogsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var tableView: UITableView!
+    var datasource: FavoritesDatasource?
+    let dogPersistence: DogPersistenceService = DogMemoryCrud.instance
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupDatasource()
+    }
+    
+    func setupDatasource() {
+        datasource = FavoritesDatasource(tableView: tableView, dogs: dogPersistence.dogs())
+        tableView.dataSource = datasource
+        tableView.rowHeight = 120
+        tableView.reloadData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  
 
 }
 

@@ -13,7 +13,6 @@
 		0AAD7DA31FE02B160048E7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA11FE02B160048E7A2 /* Main.storyboard */; };
 		0AAD7DA51FE02B160048E7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA41FE02B160048E7A2 /* Assets.xcassets */; };
 		0AAD7DA81FE02B160048E7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD7DA61FE02B160048E7A2 /* LaunchScreen.storyboard */; };
-		0AAD7DB31FE02B160048E7A2 /* DogsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7DB21FE02B160048E7A2 /* DogsAppTests.swift */; };
 		0AC30D521FE02FED0031DF09 /* DogsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D511FE02FED0031DF09 /* DogsService.swift */; };
 		0AC30D541FE030160031DF09 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D531FE030160031DF09 /* Result.swift */; };
 		0AC30D571FE030580031DF09 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC30D561FE030580031DF09 /* Breed.swift */; };
@@ -30,6 +29,9 @@
 		0AC30D761FE093F90031DF09 /* FavoriteDogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AC30D741FE093F90031DF09 /* FavoriteDogTableViewCell.xib */; };
 		6267CC5E60F17CDD3525F5F4 /* Pods_DogsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */; };
 		98B7C8B4ED31B177BF59BE76 /* Pods_DogsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */; };
+		A1F5687020603FAC007AF05A /* FavoritesDatasourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5686F20603FAC007AF05A /* FavoritesDatasourceTest.swift */; };
+		A1F5687220606281007AF05A /* FavoritesDatasourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5687120606281007AF05A /* FavoritesDatasourceStub.swift */; };
+		A1F5687420617976007AF05A /* FavoritesDatasourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5687320617976007AF05A /* FavoritesDatasourceSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,6 @@
 		0AAD7DA71FE02B160048E7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AAD7DA91FE02B160048E7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AAD7DAE1FE02B160048E7A2 /* DogsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AAD7DB21FE02B160048E7A2 /* DogsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAppTests.swift; sourceTree = "<group>"; };
 		0AAD7DB41FE02B160048E7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC30D511FE02FED0031DF09 /* DogsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsService.swift; sourceTree = "<group>"; };
 		0AC30D531FE030160031DF09 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -72,6 +73,9 @@
 		46D90D1BEB606B7939D6206B /* Pods_DogsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD0F204A6953024A7838C4 /* Pods_DogsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		882A2996A6FA0D24E4C152AF /* Pods-DogsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1F5686F20603FAC007AF05A /* FavoritesDatasourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDatasourceTest.swift; sourceTree = "<group>"; };
+		A1F5687120606281007AF05A /* FavoritesDatasourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDatasourceStub.swift; sourceTree = "<group>"; };
+		A1F5687320617976007AF05A /* FavoritesDatasourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDatasourceSpec.swift; sourceTree = "<group>"; };
 		CB842438FADA5B13A2E7FACD /* Pods-DogsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogsAppTests/Pods-DogsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC65121F08BB35684B8B19EF /* Pods-DogsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogsApp/Pods-DogsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,7 +141,7 @@
 		0AAD7DB11FE02B160048E7A2 /* DogsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				0AAD7DB21FE02B160048E7A2 /* DogsAppTests.swift */,
+				A1F5686E20603F76007AF05A /* Datasources */,
 				0AAD7DB41FE02B160048E7A2 /* Info.plist */,
 			);
 			path = DogsAppTests;
@@ -212,6 +216,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A1F5686E20603F76007AF05A /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5686F20603FAC007AF05A /* FavoritesDatasourceTest.swift */,
+				A1F5687120606281007AF05A /* FavoritesDatasourceStub.swift */,
+				A1F5687320617976007AF05A /* FavoritesDatasourceSpec.swift */,
+			);
+			path = Datasources;
+			sourceTree = "<group>";
+		};
 		EE8ACA5A8A0433E6DB5CDFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +295,7 @@
 					};
 					0AAD7DAD1FE02B160048E7A2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0AAD7D971FE02B160048E7A2;
 					};
@@ -473,7 +488,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAD7DB31FE02B160048E7A2 /* DogsAppTests.swift in Sources */,
+				A1F5687220606281007AF05A /* FavoritesDatasourceStub.swift in Sources */,
+				A1F5687020603FAC007AF05A /* FavoritesDatasourceTest.swift in Sources */,
+				A1F5687420617976007AF05A /* FavoritesDatasourceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,12 +669,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5P786SDN2;
 				INFOPLIST_FILE = DogsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tplioy.DogsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogsApp.app/DogsApp";
@@ -670,6 +689,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5P786SDN2;
 				INFOPLIST_FILE = DogsAppTests/Info.plist;

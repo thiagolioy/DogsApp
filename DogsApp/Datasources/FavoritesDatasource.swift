@@ -8,8 +8,8 @@
 
 import UIKit
 
-final class FavoritesDatasource: NSObject, UITableViewDataSource {
-    let dogs: [Dog]
+class FavoritesDatasource: NSObject, UITableViewDataSource {
+    var dogs: [Dog]?
     
     init(tableView: UITableView, dogs: [Dog]) {
         self.dogs = dogs
@@ -22,13 +22,14 @@ final class FavoritesDatasource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dogs.count
+        return dogs!.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath,
                                                  cellType: FavoriteDogTableViewCell.self)
-        let dog = dogs[indexPath.row]
+        let dog = dogs![indexPath.row]
+        
         cell.setup(dog: dog)
         return cell
     }

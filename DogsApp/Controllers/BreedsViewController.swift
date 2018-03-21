@@ -8,13 +8,13 @@
 
 import UIKit
 
-final class BreedsViewController: UIViewController {
+class BreedsViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tableView: UITableView!
     
-    let service: DogsService = DogsAPI()
+    var service: DogsService = DogsAPI()
     var breeds: [Breed] = [] {
         didSet {
             setupDatasource()
@@ -27,6 +27,18 @@ final class BreedsViewController: UIViewController {
         }
     }
     
+    static func initFromStoryboard() -> BreedsViewController {
+        
+        let storyboard = UIStoryboard(name: "Main",
+                                      bundle: Bundle(for: BreedsViewController.self))
+        
+        let className = String.init(describing: BreedsViewController.self)
+        
+        guard let viewController = storyboard.instantiateViewController(withIdentifier: className) as? BreedsViewController else {
+            fatalError("Could not load controller called \(className)")
+        }
+        return viewController
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
